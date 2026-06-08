@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-100 font-sans antialiased overflow-x-hidden;
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%),
+      radial-gradient(at 50% 0%, hsla(225,39%,10%,1) 0, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(263,34%,15%,1) 0, transparent 50%);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+
+  /* Custom, sleek scrollbar design */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-slate-950;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-800 rounded-full hover:bg-slate-700 transition-colors;
+  }
+}
+
+/* Glassmorphism custom classes */
+.glass-panel {
+  @apply bg-slate-900/60 backdrop-blur-md border border-slate-800/80 rounded-2xl shadow-xl shadow-slate-950/20;
+}
+
+.glass-panel-hover {
+  @apply transition-all duration-300 hover:border-slate-700/60 hover:shadow-2xl hover:shadow-violet-950/10 hover:bg-slate-900/70;
+}
+
+.glass-card {
+  @apply bg-slate-900/40 backdrop-blur-sm border border-slate-800/40 rounded-xl p-6 transition-all duration-300;
+}
+
+.glass-card:hover {
+  @apply border-violet-500/30 bg-slate-900/60 shadow-lg shadow-violet-950/5;
+}
+
+.glass-input {
+  @apply bg-slate-950/80 border border-slate-800 rounded-lg px-4 py-2.5 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-violet-500 focus:ring-1 focus:ring-violet-500 transition-all duration-200;
+}

@@ -1,0 +1,68 @@
+[2026-05-20 10:39:06] - INFO - EVENT: COLABORADOR_CRIADO - RESOURCE_ID: 1 - DETAILS: Colaborador João Silva (joao.silva@softec.com.br) cadastrado com sucesso.
+[2026-05-20 10:39:32] - INFO - EVENT: SOFTWARE_CRIADO - RESOURCE_ID: 1 - DETAILS: Software 'Jira' cadastrado na categoria 'Gestão de Projetos'.
+[2026-05-20 10:39:55] - INFO - EVENT: ACESSO_CONCEDIDO - RESOURCE_ID: 1 - DETAILS: Acesso concedido para João Silva no software 'Jira' com nível Escrita.
+[2026-05-25 21:37:44] - INFO - EVENT: COLABORADOR_CRIADO - RESOURCE_ID: 1 - DETAILS: Colaborador João Silva (joao.silva@empresa.com) cadastrado com sucesso.
+[2026-05-25 21:37:44] - INFO - EVENT: COLABORADOR_CRIADO - RESOURCE_ID: 1 - DETAILS: Colaborador Maria Santos (maria.santos@empresa.com) cadastrado com sucesso.
+[2026-05-25 21:37:44] - INFO - EVENT: COLABORADOR_CRIADO - RESOURCE_ID: 1 - DETAILS: Colaborador Carlos Souza (carlos.souza@empresa.com) cadastrado com sucesso.
+[2026-05-25 21:37:44] - INFO - EVENT: SOFTWARE_CRIADO - RESOURCE_ID: 1 - DETAILS: Software 'Figma' cadastrado na categoria 'Design'.
+[2026-05-25 21:37:44] - INFO - EVENT: ACESSO_CONCEDIDO - RESOURCE_ID: 1 - DETAILS: Acesso concedido para Carlos Souza no software 'Figma' com nível Admin.
+[2026-05-25 21:37:44] - INFO - EVENT: COLABORADOR_CRIADO - RESOURCE_ID: 1 - DETAILS: Colaborador Ana Lima (ana.lima@empresa.com) cadastrado com sucesso.
+[2026-05-25 21:37:44] - INFO - EVENT: SOFTWARE_CRIADO - RESOURCE_ID: 1 - DETAILS: Software 'SAP' cadastrado na categoria 'ERP'.
+[2026-05-25 21:37:44] - INFO - EVENT: ACESSO_CONCEDIDO - RESOURCE_ID: 1 - DETAILS: Acesso concedido para Ana Lima no software 'SAP' com nível Leitura.
+[2026-05-25 21:37:44] - INFO - EVENT: EQUIPAMENTO_CRIADO - RESOURCE_ID: 1 - DETAILS: Equipamento 'Dell Latitude 5430' (Tag: PAT-2026-X1) cadastrado com sucesso.
+[2026-05-25 21:37:44] - INFO - EVENT: EQUIPAMENTO_CRIADO - RESOURCE_ID: 1 - DETAILS: Equipamento 'Dell Latitude 5430' (Tag: PAT-2026-X2) cadastrado com sucesso.
+[2026-05-25 21:37:44] - INFO - EVENT: COLABORADOR_CRIADO - RESOURCE_ID: 1 - DETAILS: Colaborador Carla Lima (carla@empresa.com) cadastrado com sucesso.
+[2026-05-25 21:37:44] - INFO - EVENT: EQUIPAMENTO_CRIADO - RESOURCE_ID: 1 - DETAILS: Equipamento 'Apple MacBook Pro M2' (Tag: PAT-2026-X3) cadastrado com sucesso.
+[2026-05-25 21:37:44] - INFO - EVENT: EQUIPAMENTO_VINCULADO - RESOURCE_ID: 1 - DETAILS: Equipamento Tag PAT-2026-X3 vinculado ao colaborador Carla Lima.
+[2026-05-25 21:37:44] - INFO - EVENT: EQUIPAMENTO_STATUS_ALTERADO - RESOURCE_ID: 1 - DETAILS: Status do equipamento Tag PAT-2026-X3 alterado de Estoque para Em Uso.
+[2026-05-25 21:37:44] - INFO - EVENT: EQUIPAMENTO_ATUALIZADO - RESOURCE_ID: 1 - DETAILS: Dados do equipamento Tag PAT-2026-X3 atualizados com sucesso.
+[2026-05-25 21:41:17] - INFO - EVENT: EQUIPAMENTO_CRIADO - RESOURCE_ID: 1 - DETAILS: Equipamento 'Dell Latitude 3420' (Tag: TEC001) cadastrado com sucesso.
+[2026-05-25 21:42:46] - INFO - EVENT: EQUIPAMENTO_CRIADO - RESOURCE_ID: 2 - DETAILS: Equipamento 'Samsung Essential ' (Tag: MON001) cadastrado com sucesso.
+[2026-05-25 21:43:51] - INFO - EVENT: SOFTWARE_CRIADO - RESOURCE_ID: 2 - DETAILS: Software 'Google' cadastrado na categoria 'Comunicação'.
+[2026-05-25 21:44:22] - INFO - EVENT: SOFTWARE_CRIADO - RESOURCE_ID: 3 - DETAILS: Software 'Microsoft Office' cadastrado na categoria 'Gestão de Projetos'.
+[2026-05-25 21:44:38] - INFO - EVENT: SOFTWARE_CRIADO - RESOURCE_ID: 4 - DETAILS: Software 'Slack' cadastrado na categoria 'Gestão de Projetos'.
+[2026-05-25 21:44:58] - INFO - EVENT: SOFTWARE_CRIADO - RESOURCE_ID: 5 - DETAILS: Software 'Docmost' cadastrado na categoria 'Gestão de Projetos'.
+[2026-05-25 21:45:23] - INFO - EVENT: SOFTWARE_CRIADO - RESOURCE_ID: 6 - DETAILS: Software 'Visual Studio' cadastrado na categoria 'Desenvolvimento'.
+[2026-05-25 21:45:37] - INFO - EVENT: SOFTWARE_CRIADO - RESOURCE_ID: 7 - DETAILS: Software 'GitHub' cadastrado na categoria 'Desenvolvimento'.
+[2026-05-25 21:46:18] - INFO - EVENT: ACESSO_CONCEDIDO - RESOURCE_ID: 2 - DETAILS: Acesso concedido para João Silva no software 'Google' com nível Escrita.
+[2026-05-25 21:46:33] - INFO - EVENT: ACESSO_CONCEDIDO - RESOURCE_ID: 3 - DETAILS: Acesso concedido para João Silva no software 'Microsoft Office' com nível Escrita.
+[2026-05-25 21:46:38] - INFO - EVENT: ACESSO_CONCEDIDO - RESOURCE_ID: 4 - DETAILS: Acesso concedido para João Silva no software 'Docmost' com nível Leitura.
+[2026-05-25 21:47:44] - INFO - EVENT: COLABORADOR_CRIADO - RESOURCE_ID: 2 - DETAILS: Colaborador Emilly Poliane do Carmo Silva (emilly.silva@softec.com.br) cadastrado com sucesso.
+[2026-05-25 21:49:03] - INFO - EVENT: COLABORADOR_CRIADO - RESOURCE_ID: 3 - DETAILS: Colaborador Adriana Zenaide Clericuzi (adriana.clericuzi@softec.com.br) cadastrado com sucesso.
+[2026-05-25 21:49:33] - INFO - EVENT: ACESSO_CONCEDIDO - RESOURCE_ID: 5 - DETAILS: Acesso concedido para Emilly Poliane do Carmo Silva no software 'Jira' com nível Dono.
+[2026-05-25 21:49:39] - INFO - EVENT: ACESSO_CONCEDIDO - RESOURCE_ID: 6 - DETAILS: Acesso concedido para Adriana Zenaide Clericuzi no software 'Jira' com nível Admin.
+[2026-05-25 21:49:45] - INFO - EVENT: ACESSO_CONCEDIDO - RESOURCE_ID: 7 - DETAILS: Acesso concedido para Emilly Poliane do Carmo Silva no software 'Google' com nível Dono.
+[2026-05-25 21:49:53] - INFO - EVENT: ACESSO_CONCEDIDO - RESOURCE_ID: 8 - DETAILS: Acesso concedido para Emilly Poliane do Carmo Silva no software 'Docmost' com nível Dono.
+[2026-05-25 21:50:01] - INFO - EVENT: ACESSO_CONCEDIDO - RESOURCE_ID: 9 - DETAILS: Acesso concedido para Adriana Zenaide Clericuzi no software 'Google' com nível Admin.
+[2026-05-25 21:50:13] - INFO - EVENT: ACESSO_CONCEDIDO - RESOURCE_ID: 10 - DETAILS: Acesso concedido para Adriana Zenaide Clericuzi no software 'Microsoft Office' com nível Admin.
+[2026-05-25 21:50:28] - INFO - EVENT: ACESSO_CONCEDIDO - RESOURCE_ID: 11 - DETAILS: Acesso concedido para Adriana Zenaide Clericuzi no software 'Slack' com nível Admin.
+[2026-05-25 21:51:06] - INFO - EVENT: ACESSO_REVOGADO - RESOURCE_ID: 11 - DETAILS: Acesso revogado do colaborador Adriana Zenaide Clericuzi para o software 'Slack'.
+[2026-05-25 21:52:01] - INFO - EVENT: EQUIPAMENTO_VINCULADO - RESOURCE_ID: 1 - DETAILS: Equipamento Tag TEC001 vinculado ao colaborador João Silva.
+[2026-05-25 21:52:01] - INFO - EVENT: EQUIPAMENTO_STATUS_ALTERADO - RESOURCE_ID: 1 - DETAILS: Status do equipamento Tag TEC001 alterado de Estoque para Em Uso.
+[2026-05-25 21:52:01] - INFO - EVENT: EQUIPAMENTO_ATUALIZADO - RESOURCE_ID: 1 - DETAILS: Dados do equipamento Tag TEC001 atualizados com sucesso.
+[2026-05-25 21:53:00] - INFO - EVENT: EQUIPAMENTO_CRIADO - RESOURCE_ID: 3 - DETAILS: Equipamento 'AOC International (USA) Ltd. E2272PWUT' (Tag: MON002) cadastrado com sucesso.
+[2026-05-25 21:54:07] - INFO - EVENT: EQUIPAMENTO_CRIADO - RESOURCE_ID: 4 - DETAILS: Equipamento 'Intelbras MSI 50 BL' (Tag: TEC002) cadastrado com sucesso.
+[2026-05-25 21:54:16] - INFO - EVENT: EQUIPAMENTO_VINCULADO - RESOURCE_ID: 4 - DETAILS: Equipamento Tag TEC002 vinculado ao colaborador Adriana Zenaide Clericuzi.
+[2026-05-25 21:54:16] - INFO - EVENT: EQUIPAMENTO_ATUALIZADO - RESOURCE_ID: 4 - DETAILS: Dados do equipamento Tag TEC002 atualizados com sucesso.
+[2026-05-25 21:55:04] - INFO - EVENT: ACESSO_CONCEDIDO - RESOURCE_ID: 11 - DETAILS: Acesso concedido para Adriana Zenaide Clericuzi no software 'Slack' com nível Escrita.
+[2026-05-25 21:55:11] - INFO - EVENT: ACESSO_CONCEDIDO - RESOURCE_ID: 12 - DETAILS: Acesso concedido para Adriana Zenaide Clericuzi no software 'GitHub' com nível Admin.
+[2026-05-25 21:55:44] - INFO - EVENT: COLABORADOR_INATIVADO - RESOURCE_ID: 1 - DETAILS: Status do colaborador alterado de Ativo para Inativo.
+[2026-05-25 21:55:44] - INFO - EVENT: COLABORADOR_ATUALIZADO - RESOURCE_ID: 1 - DETAILS: Dados do colaborador João Silva atualizados com sucesso.
+[2026-05-25 21:56:25] - INFO - EVENT: COLABORADOR_ATIVADO - RESOURCE_ID: 1 - DETAILS: Status do colaborador alterado de Inativo para Ativo.
+[2026-05-25 21:56:25] - INFO - EVENT: COLABORADOR_ATUALIZADO - RESOURCE_ID: 1 - DETAILS: Dados do colaborador João Silva atualizados com sucesso.
+[2026-06-02 08:41:58] - INFO - EVENT: COLABORADOR_CRIADO - RESOURCE_ID: 1 - DETAILS: Colaborador João Silva (joao.silva@empresa.com) cadastrado com sucesso.
+[2026-06-02 08:41:58] - INFO - EVENT: COLABORADOR_CRIADO - RESOURCE_ID: 1 - DETAILS: Colaborador Maria Santos (maria.santos@empresa.com) cadastrado com sucesso.
+[2026-06-02 08:41:58] - INFO - EVENT: COLABORADOR_CRIADO - RESOURCE_ID: 1 - DETAILS: Colaborador Carlos Souza (carlos.souza@empresa.com) cadastrado com sucesso.
+[2026-06-02 08:41:58] - INFO - EVENT: SOFTWARE_CRIADO - RESOURCE_ID: 1 - DETAILS: Software 'Figma' cadastrado na categoria 'Design'.
+[2026-06-02 08:41:58] - INFO - EVENT: ACESSO_CONCEDIDO - RESOURCE_ID: 1 - DETAILS: Acesso concedido para Carlos Souza no software 'Figma' com nível Admin.
+[2026-06-02 08:41:58] - INFO - EVENT: COLABORADOR_CRIADO - RESOURCE_ID: 1 - DETAILS: Colaborador Ana Lima (ana.lima@empresa.com) cadastrado com sucesso.
+[2026-06-02 08:41:58] - INFO - EVENT: SOFTWARE_CRIADO - RESOURCE_ID: 1 - DETAILS: Software 'SAP' cadastrado na categoria 'ERP'.
+[2026-06-02 08:41:58] - INFO - EVENT: ACESSO_CONCEDIDO - RESOURCE_ID: 1 - DETAILS: Acesso concedido para Ana Lima no software 'SAP' com nível Leitura.
+[2026-06-02 08:41:58] - INFO - EVENT: EQUIPAMENTO_CRIADO - RESOURCE_ID: 1 - DETAILS: Equipamento 'Dell Latitude 5430' (Tag: PAT-2026-X1) cadastrado com sucesso.
+[2026-06-02 08:41:58] - INFO - EVENT: EQUIPAMENTO_CRIADO - RESOURCE_ID: 1 - DETAILS: Equipamento 'Dell Latitude 5430' (Tag: PAT-2026-X2) cadastrado com sucesso.
+[2026-06-02 08:41:58] - INFO - EVENT: COLABORADOR_CRIADO - RESOURCE_ID: 1 - DETAILS: Colaborador Carla Lima (carla@empresa.com) cadastrado com sucesso.
+[2026-06-02 08:41:58] - INFO - EVENT: EQUIPAMENTO_CRIADO - RESOURCE_ID: 1 - DETAILS: Equipamento 'Apple MacBook Pro M2' (Tag: PAT-2026-X3) cadastrado com sucesso.
+[2026-06-02 08:41:58] - INFO - EVENT: EQUIPAMENTO_VINCULADO - RESOURCE_ID: 1 - DETAILS: Equipamento Tag PAT-2026-X3 vinculado ao colaborador Carla Lima.
+[2026-06-02 08:41:58] - INFO - EVENT: EQUIPAMENTO_STATUS_ALTERADO - RESOURCE_ID: 1 - DETAILS: Status do equipamento Tag PAT-2026-X3 alterado de Estoque para Em Uso.
+[2026-06-02 08:41:58] - INFO - EVENT: EQUIPAMENTO_ATUALIZADO - RESOURCE_ID: 1 - DETAILS: Dados do equipamento Tag PAT-2026-X3 atualizados com sucesso.
+[2026-06-02 09:29:33] - INFO - EVENT: COLABORADOR_CRIADO - RESOURCE_ID: 4 - DETAILS: Colaborador aaaa (a@a.com) cadastrado com sucesso.
