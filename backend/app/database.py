@@ -3,14 +3,15 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 import os
 
-# Caminho para o banco de dados SQLite persistente
-engine = create_engine(DATABASE_URL)
+# 1. Puxa a URL da Render. Se não achar, usa um SQLite local como plano B para não quebrar.
+DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./sql_app.db")
 
-# Cria engine do SQLAlchemy
-# connect_args={"check_same_thread": False} é necessário para o SQLite no FastAPI
-engine = create_engine(
-    DATABASE_URL, connect_args={"check_same_thread": False}
-)
+# 2. Configura a Engine de forma inteligente
+# Se for usar SQLite local, ativa o check_same_thread. Se for o Postgres do Supabase, ignora.
+if DATABASE_URL.startswith("sqlite"):
+    engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
+else:
+    engine = create_engine(DATABASE_URL)
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
