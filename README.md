@@ -1,6 +1,6 @@
 # GOV-IT - Sistema de Governança de TI e Matriz de Acessos
 
-Este é um sistema robusto e moderno de **Governança de TI e Controle de Acessos** corporativos. Ele permite mapear colaboradores, catalogar softwares licenciados pela empresa e controlar ativamente a concessão e revogação de acessos, com foco total em segurança, logs de auditoria e conformidade.
+Este é um sistema robusto e moderno de **Governança de TI e Controle de Acessos** corporativos. Ele permite mapear colaboradores, catalogar softwares licenciados pela empresa e controlar ativamente a concessão e revogação de acessos, com foco total em segurança, logs de auditoria e conformidade..
 
 ---
 
