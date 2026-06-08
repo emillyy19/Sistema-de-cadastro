@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 import os
 
 # Caminho para o banco de dados SQLite persistente
-DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./governanca.db")
+engine = create_engine(DATABASE_URL)
 
 # Cria engine do SQLAlchemy
 # connect_args={"check_same_thread": False} é necessário para o SQLite no FastAPI
